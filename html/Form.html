@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>User Registration Form</h1>
+    <hr/>
+    <form method="get" action="process.jsp">
+        <table>
+            <tr>
+                <td>
+                    <label for="txtUserName">Username :</label>
+                </td>
+                <td>
+                    <input type="text" maxlength="10" minlength="5" id="txtUserName" name="txtUserName" required />
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="txtPassword">Password :</label>
+                </td>
+                <td>
+                    <input type="password" id="txtPassword" name="txtPassword" required/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="txtEmail">Email</label>
+                </td>
+                <td>
+                    <input type="email" id="txtEmail" name="txtEmail" required/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="txtPhone">Phone</label>
+                </td>
+                <td>
+                    <input type="text"  id="txtPhone" name="txtPhone" required/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="txtDOB">DOB</label>
+                </td>
+                <td>
+                    <input type="date" id="txtDOB" name="txtDOB" required/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="rbtGender">Gender</label>
+                </td>
+                <td>
+                    <input type="radio" name="rbtGender" id="rbtGender1" value="male" required/>Male
+                    <input type="radio" name="rbtGender" id="rbtGender2" value="female" required/>Female
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Qualification</label>
+                </td>
+                <td>
+                    <input type="checkbox" name="chkQualification" id="" value="10th"  required/>10<sup>th</sup>
+                    <input type="checkbox" name="chkQualification" id="" value="+3"  required/>+3
+                    <input type="checkbox" name="chkQualification" id="" value="Master" required />Master
+                </td>
+            </tr>
+            <tr>
+                <td>Address</td>
+                <td>
+                    <textarea name="txtAddress" required></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>Country</td>
+                <td>
+                    <select name="country">
+                        <option value="IND">India</option>
+                        <option value="PAK">Pakistan</option>
+                        <option value="SA">South Africa</option>
+                        <option value="NEP">NEPAL</option>
+                        <option value="SL">SRILANKA</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label>Upload Document</label></td>
+                <td>
+                    <input type="file" name="upload" required/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                   
+                </td>
+                <td>
+                    <input type="submit" value="SAVE"/>
+
+                    <input type="c" value="RESET"/>
+                </td>
+            </tr>
+            <tr>
+                <input type="color"/>
+                <input type="week"/>
+                <input type="time"/>
+                <input type="datetime"/>
+                <input type="range" min="10" max="100" name="range" />
+                <input type=" "/>
+            </tr>
+        </table>
+        
+     
+
+        <br/>
+        
+       
+    </form>
+</body>
+</html>

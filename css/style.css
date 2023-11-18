@@ -1,0 +1,20 @@
+#header{
+   border:1px solid red;
+   width:500px;
+   height:300px;
+   background-color: cyan;
+}
+
+#content{
+    border:1px solid red;
+    width:500px;
+    height:1000px;
+    background-color: rgb(151, 151, 146);
+}
+
+#footer{
+    border:1px solid red;
+    width:500px;
+    height:400px;
+    background-color: rgb(147, 80, 120);
+}

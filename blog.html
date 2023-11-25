@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>My Blog</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+       }
+       header h1 {
+        margin: 0;
+       }
+       
+       nav ul {
+        list-style-type: none;
+        padding: 0;
+       }
+
+       nav li {
+        display: inline;
+        margin-right: 20px;
+       }
+
+       nav a {
+            text-decoration: none;
+            color: #fff;
+       }
+
+       main {
+        max-width: 800px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      .blog-post {
+    margin-bottom: 40px;
+}
+
+.blog-post h2 {
+    color: #333;
+}
+
+.blog-post .meta {
+    color: #777;
+    font-style: italic;
+}
+
+.read-more {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Blog</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Categories</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="blog-post">
+            <h2>Post Title 1</h2>
+            <p class="meta">Published on June 1, 2023 by Author</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. ...</p>
+            <a href="#" class="read-more">Read More</a>
+        </section>
+
+        <section class="blog-post">
+            <h2>Post Title 2</h2>
+            <p class="meta">Published on June 5, 2023 by Author</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. ...</p>
+            <a href="#" class="read-more">Read More</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 My Blog. All rights reserved.</p>
+    </footer>
+</body>
+</html>

@@ -153,7 +153,59 @@ CSS : Cascading Style Sheet
 
 1. Background
 
-   background-color :
+   background-color :  
    background-position:
 
 2. Border
+
+# Color in CSS
+
+---
+
+Color Coding Standards :
+
+1. Color Names
+
+2. RGB (Red,Green,Blue)
+
+   rgb(0,0,0); -> Black
+   rgb(25,255,255); -> White
+
+3. Hexadecimal
+
+   #000000 -> Black
+
+   #FFFFFF -> White
+
+4. Hexadecimal Short Notation
+
+   #000
+
+5. HSL (hue,Saturation , Lightness)
+
+6. CMKY (Cyan,Magenta,Key ,Yellow)
+
+You can use Color Picker for Selecting desired color.
+
+https://htmlcolorcodes.com/color-picker/
+
+https://www.w3schools.com/colors/colors_picker.asp
+
+- To apply Transparency we use the following :
+
+  rgba(0,0,0,0.0)
+  rgba(0,0,0,1.0)
+
+- 1. Background :
+
+  background-color
+  background-image : url('')
+
+  background-repeat :
+  no-repeat
+  repeat
+  repeat-x
+  repeat-y
+  background-attachment
+  background-position
+  background (shorthand property)
